@@ -26,12 +26,12 @@
 
 
 - (IBAction)success:(id)sender {
-    [StatusBarHUD showSuccess:@"加载成功！"];
+    [StatusBarHUD showSuccess:@"加载成功"];
 }
 
 
 - (IBAction)error:(id)sender {
-    [StatusBarHUD showError:@"加载失败！"];
+    [StatusBarHUD showError:@"加载失败"];
 
 }
 
